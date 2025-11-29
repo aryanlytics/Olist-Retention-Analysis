@@ -1,6 +1,6 @@
 ### Goal: Combine all 9 tables into a single summary table with derived columns.
 
-- Create summary table with customer, order, and product details
+- Create summary table with customer, seller, order, and product details
 
 ```sql
 -- Step 1: Create the summary table structure
