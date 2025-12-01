@@ -107,7 +107,7 @@ Even 2016 customers with 2+ years to repurchase showed only 4% retention. The 20
 | Late Delivery | 6,346 | 163 | 2.57% |
 | On-Time Delivery | 87,012 | 2,816 | 3.24% |
 
-**Statistical test:** Ï‡Â² = 8.32, p = 0.004 (statistically significant)
+**Statistical test:** χ² = 8.32, p = 0.004 (statistically significant)
 
 **Business conclusion:** While the relationship is statistically significant, the effect size is operationally meaningless. The 0.67 percentage point difference means that even if Olist eliminated all late deliveries, repeat rate would only increase from 2.57% to 3.24%â€”still a 97% churn rate.
 
@@ -127,7 +127,7 @@ Even 2016 customers with 2+ years to repurchase showed only 4% retention. The 20
 | Neutral (3 stars) | 7,667 | 244 | 3.18% |
 | Positive (4-5 stars) | 73,165 | 2,325 | 3.18% |
 
-**Statistical test:** Ï‡Â² = 0.23, p = 0.889 (not statistically significant)
+**Statistical test:** χ² = 0.23, p = 0.889 (not statistically significant)
 
 **Business conclusion:** Review scores have zero relationship with retention. Customers who rated their experience 5 stars are just as unlikely to return as customers who rated it 1 star.
 
@@ -154,7 +154,7 @@ Even 2016 customers with 2+ years to repurchase showed only 4% retention. The 20
 
 **Business conclusion:** Category matters, but even "naturally repeatable" categories fail. Pet supplies should have 25%+ repeat rates (pet food is consumable), but Olist shows 4.97%. Health/beauty should be 20-30%, but shows 4.16%.
 
-Home appliances at 11% is the highest categoryâ€”3.5Ã— the averageâ€”likely driven by replacement parts and accessories. But even this "best case" is far below functional retention.
+Home appliances at 11% is the highest category—3.5× the average-likely driven by replacement parts and accessories. But even this "best case" is far below functional retention.
 
 **Implication:** While shifting category mix toward home appliances and fashion accessories would help, it's not sufficient to solve the retention problem. Even best-in-class categories are failing.
 
@@ -185,29 +185,30 @@ Higher-value customers are actually *less* likely to return. This suggests trust
 
 Retention is essentially flat across developed (SÃ£o Paulo) and underdeveloped (CearÃ¡) regions. Geographic logistics challenges don't explain the retention crisis.
 
-**Implication:** The problem is platform-wide, not segment-specific. No customer typeâ€”regardless of purchase value or locationâ€”shows healthy retention.
+**Implication:** The problem is platform-wide, not segment-specific. No customer type—regardless of purchase value or location—shows healthy retention.
 
 ---
 
-## Key Insight: Why Operations Don't Matter
+## **Key Insight: Why Operations Don't Matter**
 
 The defining characteristic of this data: **customers with perfect experiences don't come back.**
 
-- On-time delivery + 5-star review â†’ 3.2% repeat rate
-- Late delivery + 1-star review â†’ 2.6% repeat rate
+- On-time delivery + 5-star review → 3.2% repeat rate
+- Late delivery + 1-star review → 2.6% repeat rate
 
 A 0.6 percentage point difference between best and worst possible experiences means operational improvements cannot solve retention. The platform was being used for **distress purchases** (items unavailable locally) or **one-time experiments** with online shopping, not as a primary shopping destination.
 
 ---
 
-## Recommendations
+## **Recommendations**
 
 ### What Olist Cannot Fix
 - **Delivery speed:** Olist is a SaaS platform; sellers control logistics
 - **Seller quality at scale:** Removing bad sellers risks losing marketplace breadth
 - **Market trust in e-commerce:** Brazil's online shopping adoption was early-stage in 2016-2018
 
-### Option 1: Stop Fighting Retentionâ€”Optimize for Acquisition Efficiency â­ **Recommended**
+### **Option 1: Stop Fighting Retention—Optimize for Acquisition Efficiency**               
+**Recommended**
 
 **The strategy:** Accept the 3% baseline and stop wasting budget on retention programs that don't work.
 
@@ -218,7 +219,7 @@ A 0.6 percentage point difference between best and worst possible experiences me
 - Optimize CAC to break even on first purchase rather than building LTV models
 
 **Business impact:**
-- Current retention budget: ~$500k/year â†’ Reallocate $300-350k
+- Current retention budget: ~$500k/year → Reallocate $300-350k
 - At $20 CAC: +15,000-17,500 new customers
 - At $120 AOV: +$1.8-2.1M GMV in Year 1
 
@@ -226,9 +227,10 @@ A 0.6 percentage point difference between best and worst possible experiences me
 
 ---
 
-### Option 2: Shift Category Mixâ€”Build on the 11% â­ **Recommended**
+### **Option 2: Shift Category Mix—Build on the 11%**              
+**Recommended**
 
-**The strategy:** Home appliances show 11% repeat rate (3.5Ã— average). Double down on what works.
+**The strategy:** Home appliances show 11% repeat rate (3.5× average). Double down on what works.
 
 **Actions:**
 - Recruit 200+ sellers in high-repeat categories (home appliances, fashion accessories, small electronics with consumable parts)
@@ -238,15 +240,15 @@ A 0.6 percentage point difference between best and worst possible experiences me
 
 **Business impact:**
 - Shift 10,000 customers/year from 3% categories to 10% categories
-- Current: 300 repeat customers â†’ New: 1,000 repeat customers
-- +700 repeat purchases Ã— $120 AOV = +$84k GMV/year
+- Current: 300 repeat customers → New: 1,000 repeat customers
+- +700 repeat purchases × $120 AOV = +$84k GMV/year
 - Compounds in Year 2-3 as the customer base shifts
 
 **Why this works:** Olist controls seller recruitment and marketing focus.
 
 ---
 
-### Option 3: Test a "Second Purchase Guarantee" Program
+### **Option 3: Test a "Second Purchase Guarantee" Program**
 
 **The strategy:** Remove risk from the second purchase to test if trust is the barrier.
 
@@ -261,8 +263,8 @@ A 0.6 percentage point difference between best and worst possible experiences me
 **Expected outcomes:**
 - 8-12% redemption (vs 3% baseline)
 - Cost: $18 per redemption ($10 discount + $8 shipping insurance)
-- 10,000 customers Ã— 10% = 1,000 redemptions
-- Investment: $18k â†’ Returns: $120k GMV = 5.7Ã— ROI
+- 10,000 customers × 10% = 1,000 redemptions
+- Investment: $18k → Returns: $120k GMV = 5.7 × ROI
 
 **Why test this:** If it fails, you've proven that even eliminating risk doesn't fix trust. If it works, you've found a lever.
 
@@ -272,9 +274,9 @@ A 0.6 percentage point difference between best and worst possible experiences me
 
 **Implement Option 1 + Option 2 together.**
 
-**Year 1:** Reallocate retention spend to acquisition â†’ +$2M GMV
+**Year 1:** Reallocate retention spend to acquisition → +$2M GMV
 
-**Year 2-3:** Category mix shift begins compounding â†’ +$100-250k GMV annually
+**Year 2-3:** Category mix shift begins compounding → +$100-250k GMV annually
 
 **3-year impact:** ~$2.5M additional GMV with no changes to logistics, seller contracts, or platform infrastructure.
 
@@ -291,20 +293,6 @@ This analysis used diagnostic techniques with statistical validation:
 
 All SQL transformations, hypothesis tests, and data quality checks are available in the project repository.
 
----
-
-## Project Structure
-
-```
-â”œâ”€â”€ data/
-â”‚   â”œâ”€â”€ raw/                    # Original 9 CSV files from Kaggle
-â”‚   â””â”€â”€ processed/              # Summary table with derived metrics
-â”œâ”€â”€ analysis/
-â”‚   â”œâ”€â”€ sql/                    # Queries for cohort, delivery, category analysis
-â”‚   â””â”€â”€ statistical_tests/      # Chi-square tests in Python
-â”œâ”€â”€ visualizations/             # Supporting charts and dashboards
-â””â”€â”€ README.md                   # This document
-```
 
 ---
 
@@ -314,7 +302,7 @@ All SQL transformations, hypothesis tests, and data quality checks are available
 
 ---
 
-**Author:** [Your Name]  
+**Author:** Muhammad Aryan  
 **Date:** November 2025  
 **Tools:** PostgreSQL, Python (scipy), Data Visualization  
 **Dataset:** Brazilian E-Commerce Public Dataset by Olist
